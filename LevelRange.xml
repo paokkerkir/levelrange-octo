@@ -3,6 +3,9 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://www.blizzard.com/wow/ui/">
 
+  <Script file="localisation.lua"/>
+  <Script file="LevelRange.lua"/>
+
   <!-- Hook OnLoad and OnEvent -->
   <Frame name="LevelRangeFrame" parent="UIParent" hidden="true">
     <Scripts>
