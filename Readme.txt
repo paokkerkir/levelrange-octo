@@ -9,9 +9,9 @@ Details
 ----------------------
 Title: 	        LevelRange
 Interface:      11200
-Version:        2.2.0
+Version:        2.0.4
 
-Author:         Bull3t, Tenyar97, rado-boy, blehz, rafacc87, Diginfotek, Spartelfant.
+Author:         Bull3t, Tenyar97, rado-boy, blehz, Spartelfant.
 Addon Website:  https://github.com/Tenyar97/LevelRange-Turtle
 
 Current Features:
@@ -22,31 +22,6 @@ Current Features:
 ----------------------
 Change Log
 ----------------------
-2.2.0 - Update (Spartelfant)
- [*] Added Portuguese translation by rafacc87.
- [*] Added German translation by rafacc87.
- [*] Added French translation by Diginfotek.
- [*] Added Chinese translation by rafacc87.
- [*] Rename dungeons and raids in spanish.
- [*] Restructure translation files.
-
-2.1.0 - Update (Spartelfant)
- [*] Added Spanish translation by rafacc87.
-
-2.0.8 - Update (Spartelfant)
- [*] Fixed location of Dragonmaw Retreat: I had listed it mistakenly as being in Grim Reaches, but it's located in Wetlands.
-
-2.0.7 - Update (Spartelfant)
- [*] Fixed bug in workaround for game bug. I previously used string.match() which is not available in-game, but during testing I had another addon active that made this function available, which is why I did not catch this.
-
-2.0.6 - Update (Spartelfant)
- [*] Added workaround for game bug that prevented the new Northwind zone from showing a tooltip: The game included a trailing space, so the actual zone name is 'Northwind '.
-
-2.0.5 - Update (Spartelfant)
- [*] New zones added for patch 1.18 (Grim Reaches, Northwind, Balor)
- [*] New dungeons added for patch 1.18 (Stormwrought Ruins, Dragonmaw Retreat)
- [*] Fishing skill required for new zones not yet known, will be added some time after patch release
-
 2.0.4 - Update (Spartelfant)
  [*] Bugfix: Variables to prevent unnecessary updates were never set which was causing unnecessary updates to be performed.
  [*] Bugfix: Added missing index for Fishing option which was causing it to not appear in the settings window.
